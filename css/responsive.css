@@ -22,7 +22,13 @@ div.nav ul li {
 	div.nav ul li {
 		width: 33%;
 	}
-	
+    iframe{
+        width: 95%;
+    }
+    div.flipbook{
+        width:auto;
+    }
+    
 }
 
 @media screen and (max-width: 500px) {
@@ -45,7 +51,12 @@ div.nav ul li {
 	div.body-content {
 		width: auto;
 	}
+    div.section-inner{
+        width: auto;
+    }
 
+            $("#flipbook").turn({width:350, height:400, autocenter:true});
 
 		
 }
+

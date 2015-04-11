@@ -67,7 +67,7 @@ div.nav ul {
 div.nav ul li {
 	list-style: none;
 	float: left;
-	font-size: 93%;
+	font-size: 2rem;
 }
 #menu_page{
 	width: auto;
@@ -75,11 +75,17 @@ div.nav ul li {
 	vertical-align: auto;
 
 }
-#flipbook{
+div.flipbook{
 	
-	width: auto;
+	width: 100%;
 	vertical-align: auto;
 
+}
+
+div.flipbook ul li{
+    display: block;
+    float: left;
+    list-style: none;
 }
 div.nav ul li a:link,
 div.nav ul li a:visited {

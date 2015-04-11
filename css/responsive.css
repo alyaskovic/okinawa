@@ -23,10 +23,12 @@ div.nav ul li {
 		width: 33%;
 	}
     iframe{
-        width: 95%;
+        max-width: 100%;
+        height: auto;
     }
     div.flipbook{
-        width:auto;
+        max-width:100%;
+        height: auto;
     }
     
 }
@@ -35,7 +37,7 @@ div.nav ul li {
 	
 	div.nav ul li {
 		width: 50%;
-		font-size: 85%;
+		font-size: 100%;
 	}
 	
 	div.mobile-collapse {
@@ -55,7 +57,7 @@ div.nav ul li {
         width: auto;
     }
 
-            $("#flipbook").turn({width:350, height:400, autocenter:true});
+            /*$("#flipbook").turn({width:350, height:400, autocenter:true});*/
 
 		
 }

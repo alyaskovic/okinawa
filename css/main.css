@@ -67,7 +67,7 @@ div.nav ul {
 div.nav ul li {
 	list-style: none;
 	float: left;
-	font-size: 2rem;
+	font-size: 1.5rem
 }
 #menu_page{
 	width: auto;
@@ -155,7 +155,10 @@ div.footer {
 div.footer p {
 	padding: 0 0 0 0;
 }
-
+textarea, input{
+    width :100%;
+    height: auto;
+}
 
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }

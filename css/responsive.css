@@ -15,7 +15,7 @@ div.one-third-last {
 
 div.nav ul li {
 	width: 25%;
-	border-bottom: 1px solid #bababa;
+	border-bottom: 1px;
 }
 
 @media screen and (max-width: 620px) {
